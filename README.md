@@ -56,7 +56,7 @@ plot(physio_data)
 ```
 
 Example usage in **Python**
-```
+``` python
 import geopandas as gpd
 url = "https://raw.githubusercontent.com/idioticode/physiographic_zones_of_nepal/main/geojson_files/physiography_nepal_updated.geojson"
 gdf = gpd.read_file(url)
